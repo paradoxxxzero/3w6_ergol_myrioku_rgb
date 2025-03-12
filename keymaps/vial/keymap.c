@@ -74,10 +74,15 @@ KC_GRV,            KC_1,               KC_2,               KC_3,               K
                                    KC_DOT,             KC_0,               KC_MINS,             XXXXXXX,            XXXXXXX,            XXXXXXX
     ),
     [L_SYM] = LAYOUT_split_3x5_3(
-KC_LCBR,           KC_AMPR,            KC_ASTR,            KC_LPRN,            KC_RCBR,                      XXXXXXX,            TT(L_BASE),         TT(L_EXTRA),        TT(L_TAP),          TD_BOOT,
-KC_COLN,           KC_DLR,             KC_PERC,            KC_CIRC,            KC_PLUS,                      XXXXXXX,            KC_LSFT,            KC_LCTL,            KC_LALT,            KC_LGUI,
-KC_TILD,           KC_EXLM,            KC_AT,              KC_HASH,            KC_PIPE,                      XXXXXXX,            TT(L_SYM),          TT(L_MOUSE),        KC_ALGR,            XXXXXXX,
-                                   KC_LPRN,            KC_RPRN,            KC_UNDS,             XXXXXXX,            XXXXXXX,            XXXXXXX
+// Myrioku's sym
+// KC_LCBR,           KC_AMPR,            KC_ASTR,            KC_LPRN,            KC_RCBR,                      XXXXXXX,            TT(L_BASE),         TT(L_EXTRA),        TT(L_TAP),          TD_BOOT,
+// KC_COLN,           KC_DLR,             KC_PERC,            KC_CIRC,            KC_PLUS,                      XXXXXXX,            KC_LSFT,            KC_LCTL,            KC_LALT,            KC_LGUI,
+// KC_TILD,           KC_EXLM,            KC_AT,              KC_HASH,            KC_PIPE,                      XXXXXXX,            TT(L_SYM),          TT(L_MOUSE),        KC_ALGR,            XXXXXXX,
+// Ergo-L/Bepolar altGr syms
+S(KC_6),           ALGR(KC_W),         ALGR(KC_E),         S(KC_4),            S(KC_5),                      S(KC_0),            S(KC_7),            S(KC_8),            KC_QUOT,            KC_GRV,
+S(KC_LCBR),        ALGR(KC_S),         ALGR(KC_D),         S(KC_RCBR),         KC_EQL,                       KC_NUHS,            S(KC_EQL),          KC_C,               KC_MINS,            S(KC_QUOT),
+S(KC_GRV),         KC_LBRC,            KC_RBRC,            S(KC_MINS),         S(KC_9),                      S(KC_NUHS),         S(KC_O),            S(KC_DOT),          S(KC_N),            S(KC_C),
+                                   KC_LALT,            KC_LCTL,            KC_LSFT,             XXXXXXX,            XXXXXXX,            XXXXXXX
     ),
     [L_FUN] = LAYOUT_split_3x5_3(
 KC_F12,            KC_F7,              KC_F8,              KC_F9,              KC_PSCR,                      XXXXXXX,            TT(L_BASE),         TT(L_EXTRA),        TT(L_TAP),          TD_BOOT,
